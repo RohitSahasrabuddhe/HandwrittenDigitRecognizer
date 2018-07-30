@@ -1,0 +1,28 @@
+Requirements:
+    TensorFlow
+    Keras
+    Flask
+
+Use pip install requirement_name
+
+Tensorflow is supported only for Python 3.5 or above, need X64 operating system as well.
+
+Installing tensorflow guide:
+1.Go to https://www.continuum.io/downloads to download Anaconda Python 3.6 version for Window 64bit.
+
+2. Create a conda environment named tensorflow by invoking the following command:
+
+C:> conda create -n tensorflow
+3. Activate the conda environment by issuing the following command:
+
+C:> activate tensorflow
+(tensorflow)C:> # Your prompt should change
+4. Go to http://www.lfd.uci.edu/~gohlke/p... download “tensorflow-1.0.1-cp36-cp36m-win_amd64.whl”. (For my case, the file will be located in “C:\Users\Joshua\Downloads” once after downloaded)
+
+5. Install the Tensorflow by using following command:
+(tensorflow)C:>pip install C:\Users\Joshua\Downloads\ tensorflow-1.0.1-cp36-cp36m-win_amd64.whl
+
+Once all required packages are installed, we can run flask web app.
+Command: python app.py 
+
+URL: 127.0.0.0:9091/
